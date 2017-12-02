@@ -12,9 +12,6 @@ class Scraper
     doc.css(".post").first.css(".date").text
     doc.css(".post").first.css("p").text
 
-
-
-
   end
 
   def make_courses
